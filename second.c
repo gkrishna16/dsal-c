@@ -22,7 +22,7 @@ void show (struct myArray *a){
 void setVariable(struct myArray *a){
     int n;
     for (int i = 0; i < a->used_size; i++){
-        printf("Enter the number for position %d ", i);
+        printf("Enter the number for position %d --- ", i);
         scanf("%d", &n);
         (a->ptr)[i] = n;
     }
@@ -35,3 +35,9 @@ int main(){
     show(&marks);
     return 0;
 };
+
+// Heap
+// Stacked 
+// Global and Static Variables 
+// Code
+
